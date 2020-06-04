@@ -1,0 +1,15 @@
+ext {
+  // Can be defined in gradle.properties as well.
+  // Must be defined before any inclusions from dev-scripts.
+  project_name="sample"
+}
+
+apply from: rootProject.file('dev-scripts/gradle/repositories.gradle')
+
+allprojects {
+  apply from: rootProject.file('dev-scripts/gradle/java.gradle')
+
+  dependencies {
+
+  }
+}

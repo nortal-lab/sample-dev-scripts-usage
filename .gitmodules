@@ -1,0 +1,4 @@
+[submodule "dev-scripts"]
+	path = dev-scripts
+	url = git@github.com:nortal-lab/sample-dev-scripts.git
+	branch = master
